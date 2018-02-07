@@ -1,4 +1,4 @@
-package com.shazam.cl;
+package com.shazam.strategy;
 
 public class APP {
     public static void main(String[] args) {

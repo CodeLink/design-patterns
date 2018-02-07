@@ -1,4 +1,4 @@
-package com.shazam.cl;
+package com.shazam.strategy;
 
 abstract public class Duck {
     FlyBehavior f;

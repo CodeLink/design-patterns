@@ -1,9 +1,9 @@
-package com.shazam.gcz;
+package com.shazam.observer;
 
-public class Bicycle implements Observer{
+public class Car implements Observer{
     private String speed;
     private String size;
-    public Bicycle(CarSubject cs){
+    public Car(CarSubject cs){
         cs.addObserver(this);
     }
     public void update(String speed,String size){
@@ -12,6 +12,6 @@ public class Bicycle implements Observer{
         display();
     }
     void display(){
-        System.out.println("乘坐"+size+"个人的自行车，要以"+speed+"的速度跑！");
+        System.out.println("乘坐"+size+"个人的汽车，要以"+speed+"的速度跑！");
     }
 }

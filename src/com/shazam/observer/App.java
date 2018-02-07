@@ -1,4 +1,4 @@
-package com.shazam.gcz;
+package com.shazam.observer;
 
 public class App {
     public static void main(String[] args) {

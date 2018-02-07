@@ -1,4 +1,4 @@
-package com.shazam.gcz;
+package com.shazam.observer;
 
 import java.util.ArrayList;
 
